@@ -1,0 +1,18 @@
+@font-face {
+
+font-family: "Bebas Neue"; 
+
+src: url("fonts/BebasNeue/BebasNeue Regular.ttf"); 
+src: url("fonts/BebasNeue/BebasNeue Regular.otf");
+font-style: normal; 
+font-weight: normal; 
+} 
+
+@font-face {
+
+font-family: "Montserrat"; 
+
+src: url("fonts/montserrat/Montserrat-VariableFont_wght.ttf"); 
+font-style: normal; 
+font-weight: normal; 
+} 

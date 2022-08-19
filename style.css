@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+}
+
+body{
+	font-family: 'Montserrat';
+
+	background: #625451;
+}
+
+header{
+
+}
+
+nav{
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+
+	background: #625451;
+	display: flex;
+}
+
+a{
+	text-decoration: none;
+}
+
+.page-title{
+	position: relative;
+	width: 78px;
+	height: 40px;
+	left: 4.16666666%;
+	top: 7px;
+
+	font-family: 'Bebas Neue';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 48px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.menu{
+	display: flex;
+	justify-content: center;
+
+	position: absolute;
+	top: 18px;
+	z-index: 1;
+	width: 100%;
+
+
+	
+}
+
+
+.menu-item{
+	display: inline;
+
+}
+
+.menu-item:not(.menu-item:first-child){
+	margin-left: 30px;
+}
+
+.menu-item a{
+	width: 57px;
+	height: 24px;
+
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.search{	
+	position: absolute;
+	z-index: 1;
+	margin: 17px 0 0 84.37%;
+}
+
+.search img{
+	width: 18px;
+}
+
+.search button{
+	position: absolute;
+	width: 23px;
+	padding: 2px;
+	margin: 3px 0 0 -26px;
+
+	background: #B38C7D;
+	border-radius: 1px;
+	border: 0;
+}
+
+.search input{
+	width: 125px;
+	height: 25px;
+	padding-left: 5px;
+
+	background: #DEC3B8;
+	border: 0;
+	color: white;
+}
+
+.background-image{
+	width: 100%;
+}
+
+.section-name h2{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 59px;
+
+	text-align: center;
+	margin-top: 30px;
+
+	color: #FFFFFF;
+}
+
+main{
+	
+}
+
+.gallery{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 2.08%;
+	margin: 0 60px 0 60px;
+}
+
+.gallery div{
+
+}
+.gallery img{
+	width: 100%;
+}
+
+.history{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	margin: 50px 98px 0 98px;
+}
+
+.history div{
+	margin-left: 8.95%;
+}
+
+.history img{
+	position: relative;
+	z-index: 2;
+	width: 500px;
+	margin: 0 0 0 9%;
+}
+
+.history h2{
+	color: #FFFFFF;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 59px;
+	/* identical to box height */
+
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+
+.history p{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.map{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 50px 0 30px 0;
+}
+
+footer{
+	width: 100%;
+	height: 170px;
+	background: #313030;
+	padding-top: 20px;
+}
+
+footer h2{
+	color: white;
+
+	font-family: 'Bebas Neue';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 48px;
+
+	display: flex;
+	justify-content: center;
+
+}
+
+.icons{
+	display: flex;
+	justify-content: center;
+	margin-top: 14px;
+}
+
+.icon:not(.icon:first-child){
+	margin-left: 38.37px;
+}
+
+.phone{
+	color: white;
+
+	font-family: 'Bebas Neue';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 30px;
+	text-align: center;
+
+	margin-top: 14px;
+
+
+}
