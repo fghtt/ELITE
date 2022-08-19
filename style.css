@@ -6,6 +6,8 @@ body{
 	font-family: 'Montserrat';
 
 	background: #625451;
+
+	overflow-x: hidden;
 }
 
 header{
@@ -85,7 +87,7 @@ a{
 .search{	
 	position: absolute;
 	z-index: 1;
-	margin: 17px 0 0 84.37%;
+	padding: 17px 0 0 84.37%;
 	width: 100%;
 }
 
