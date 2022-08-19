@@ -86,6 +86,7 @@ a{
 	position: absolute;
 	z-index: 1;
 	margin: 17px 0 0 84.37%;
+	width: 100%;
 }
 
 .search img{
@@ -96,7 +97,7 @@ a{
 	position: absolute;
 	width: 23px;
 	padding: 2px;
-	margin: 3px 0 0 -26px;
+	margin: 1px 0 0 -24px;
 
 	background: #B38C7D;
 	border-radius: 1px;
@@ -104,7 +105,7 @@ a{
 }
 
 .search input{
-	width: 125px;
+	width: 8.68%;
 	height: 25px;
 	padding-left: 5px;
 
